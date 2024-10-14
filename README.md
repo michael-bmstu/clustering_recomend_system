@@ -15,7 +15,7 @@ This notebook is an implementation of a recommender system based on clustering a
 
 $$ erfc(\frac{|P_i - mean(P)|}{S_p})  < \frac{1}{2n}$$
 
-$$ S_p - deviation $$
+$$ S_p - standart deviation $$
 
 In ratings table the criterion considered outliers to be those who watched too much anime; they don’t need a recommendation system, since they already understand the topic better than any algorithm.
 
