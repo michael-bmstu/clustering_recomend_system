@@ -43,7 +43,11 @@ It is logical that we want the points to be located close to the centers of thei
 
 $$ D(k) = \frac{|J(C_k) - J(C_{k+1})|}{|J(C_{k-1}) - J(C_k)|}  \rightarrow \min\limits_k $$
 
-Where, in the case of KMeans $$ J(C) = \sum_{k=1}^K\sum_{i~\in~C_k} ||x_i - \mu_k|| \rightarrow \min\limits_C,$$ — the sum of the squares of the distances from points to the centroids of the clusters to which they belong
+Where, in the case of KMeans
+
+$$ J(C) = \sum_{k=1}^K\sum_{i~\in~C_k} ||x_i - \mu_k|| \rightarrow \min\limits_C$$
+
+The sum of the squares of the distances from points to the centroids of the clusters to which they belong.
 
 ![](imgs/inertia.png)
 
